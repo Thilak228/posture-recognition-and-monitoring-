@@ -1,0 +1,15 @@
+output*
+.idea/*
+*.pyc
+myevn
+./myevn
+don
+./don
+# Test outputs and logs
+test_output*
+*.log
+email_test_*
+
+# Email system files (SMTP only)
+email_config_backup*
+smtp_test_output*

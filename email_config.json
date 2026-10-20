@@ -1,0 +1,41 @@
+{
+  "smtp": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_username": "vthilak592@gmail.com",
+    "smtp_password": "knns wpxg mpph utfg",
+    "use_tls": true
+  },
+  "recipient_email": "vthilak592@gmail.com",
+  "sender_name": "AI Posture Monitor - Elderly Care System",
+  "monitoring_settings": {
+    "subject_name": "darshan",
+    "location_name": "home",
+    "timezone": "UTC",
+    "camera_id": "CAM-001",
+    "system_id": "AI-Posture-Monitor-001"
+  },
+  "alert_settings": {
+    "send_fall_alerts": true,
+    "send_daily_reports": true,
+    "send_system_alerts": true,
+    "fall_alert_delay": 0,
+    "report_frequency": "daily",
+    "max_alerts_per_hour": 10
+  },
+  "emergency_contacts": [
+    {
+      "name": "Primary Caregiver",
+      "email": "your-email@gmail.com",
+      "phone": "+1-555-0123",
+      "relation": "Family Member"
+    }
+  ],
+  "email_method": "smtp",
+  "mock_mode": false,
+  "system_info": {
+    "installation_date": "2025-08-06",
+    "version": "1.0.0",
+    "email_system": "SMTP-only (Web3Forms removed)"
+  }
+}
